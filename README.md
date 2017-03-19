@@ -1,6 +1,6 @@
-#Spring 2017: Advanced Topics in Numerical Anlaysis: High Performance Computing
+# Spring 2017: Advanced Topics in Numerical Anlaysis: High Performance Computing 
 
-##Assignment 2
+## Assignment 2 
 
 Problem 1: Modifications and comment are in the fixed code.
 
