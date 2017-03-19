@@ -1,0 +1,90 @@
+######################################
+
+jacobi2D-omp.c
+
+######################################
+Maximum number of iterations: 1000
+
+On my laptop:
+
+N = 300:
+2 threads: 1.374425
+4 threads: 0.712524
+8 threads: 0.575643
+
+N = 600;
+2 threads: 5.627201
+4 threads: 4.382718
+8 threads: 2.300303
+
+N = 800:
+2 threads: 9.813068
+4 threads: 7.383270
+8 threads: 4.131360
+
+N = 1000:
+2 threads: 16.153202
+4 threads: 10.237680
+8 threads:  6.567685
+
+
+On Crunchy:
+
+N = 1000;
+8  threads: 12.742104
+16 threads:  5.590543 
+24 threads:  3.953832
+
+N = 2000;
+8  threads: 45.689871
+16 threads: 26.041655 
+24 threads: 18.991688 
+
+######################################
+
+gs2D-omp.c
+
+######################################
+Maximum number of iterations: 1000
+
+On my laptop:
+
+N = 300:
+2 threads: 1.370311
+4 threads: 1.124946
+8 threads: 0.580449
+
+N = 600;
+2 threads: 5.498253
+4 threads: 4.558065
+8 threads: 2.354769 
+
+N = 800:
+2 threads: 9.823931
+4 threads: 5.176355
+8 threads: 4.287784
+
+N = 1000:
+2 threads: 16.032213 
+4 threads: 10.650412
+8 threads:  7.078213
+
+
+On Crunchy:
+
+N = 1000;
+8  threads: 10.946982 
+16 threads:  6.571360
+24 threads:  4.174152 
+
+N = 2000;
+8  threads: 46.213418
+16 threads: 29.964701
+24 threads: 19.157320 
+
+My computer specs:
+Intel core i7-7700HQ Mobile Processor
+4 2.8Hz processor
+6MB L3 Cache, 2MB L2 Cache
+OS: Ubuntu
+
