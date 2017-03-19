@@ -1,4 +1,4 @@
-## Spring 2017: Advanced Topics in Numerical Anlaysis: High Performance Computing 
+## Spring 2017: High Performance Computing 
 
 ### Assignment 2 
 
